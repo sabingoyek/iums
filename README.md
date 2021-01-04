@@ -1,0 +1,2 @@
+# iums
+The goal of this project is to equip the Institute of Mathematics and Physical Sciences (IMSP) with an information and management system for its educational activities. It is a computer application that will centralize and manage all of the institute's processes by integrating several functions into a single system. these will offer in the long term greater operational efficiency, increased productivity, and reduced information management costs.
