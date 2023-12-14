@@ -1,0 +1,182 @@
+[
+    {
+        "id": 0,
+        "enseignant": {
+            "nom": "Barrett",
+            "prenom": "Nina",
+            "grade": "Maitre-Assistant",
+            "universite": "GEEKETRON",
+            "email": "ninabarrett@geeketron.com"
+        }
+    },
+    {
+        "id": 1,
+        "enseignant": {
+            "nom": "Langley",
+            "prenom": "Kelley",
+            "grade": "Professeur titulaire",
+            "universite": "DEVILTOE",
+            "email": "kelleylangley@deviltoe.com"
+        }
+    },
+    {
+        "id": 2,
+        "enseignant": {
+            "nom": "Velasquez",
+            "prenom": "Brandie",
+            "grade": "Maitre de Conference",
+            "universite": "OMNIGOG",
+            "email": "brandievelasquez@omnigog.com"
+        }
+    },
+    {
+        "id": 3,
+        "enseignant": {
+            "nom": "Sawyer",
+            "prenom": "Marcia",
+            "grade": "Maitre-Assistant",
+            "universite": "MEDICROIX",
+            "email": "marciasawyer@medicroix.com"
+        }
+    },
+    {
+        "id": 4,
+        "enseignant": {
+            "nom": "Marquez",
+            "prenom": "Estella",
+            "grade": "Assistant",
+            "universite": "QUOTEZART",
+            "email": "estellamarquez@quotezart.com"
+        }
+    },
+    {
+        "id": 5,
+        "enseignant": {
+            "nom": "Mcgowan",
+            "prenom": "Edwina",
+            "grade": "Maitre de Conference",
+            "universite": "PROGENEX",
+            "email": "edwinamcgowan@progenex.com"
+        }
+    },
+    {
+        "id": 6,
+        "enseignant": {
+            "nom": "Head",
+            "prenom": "Millie",
+            "grade": "Professeur titulaire",
+            "universite": "PATHWAYS",
+            "email": "milliehead@pathways.com"
+        }
+    },
+    {
+        "id": 7,
+        "enseignant": {
+            "nom": "Ellison",
+            "prenom": "Fannie",
+            "grade": "Assistant",
+            "universite": "ECRATER",
+            "email": "fannieellison@ecrater.com"
+        }
+    },
+    {
+        "id": 8,
+        "enseignant": {
+            "nom": "Wilkinson",
+            "prenom": "Moore",
+            "grade": "Maitre de Conference",
+            "universite": "IMMUNICS",
+            "email": "moorewilkinson@immunics.com"
+        }
+    },
+    {
+        "id": 9,
+        "enseignant": {
+            "nom": "Moody",
+            "prenom": "Sutton",
+            "grade": "Maitre de Conference",
+            "universite": "GINKLE",
+            "email": "suttonmoody@ginkle.com"
+        }
+    },
+    {
+        "id": 10,
+        "enseignant": {
+            "nom": "Owen",
+            "prenom": "Clements",
+            "grade": "Maitre-Assistant",
+            "universite": "VOIPA",
+            "email": "clementsowen@voipa.com"
+        }
+    },
+    {
+        "id": 11,
+        "enseignant": {
+            "nom": "James",
+            "prenom": "Delgado",
+            "grade": "Maitre-Assistant",
+            "universite": "PEARLESEX",
+            "email": "delgadojames@pearlesex.com"
+        }
+    },
+    {
+        "id": 12,
+        "enseignant": {
+            "nom": "Hooper",
+            "prenom": "Laurie",
+            "grade": "Maitre de Conference",
+            "universite": "CINCYR",
+            "email": "lauriehooper@cincyr.com"
+        }
+    },
+    {
+        "id": 13,
+        "enseignant": {
+            "nom": "Noel",
+            "prenom": "Heath",
+            "grade": "Professeur titulaire",
+            "universite": "ISOLOGIA",
+            "email": "heathnoel@isologia.com"
+        }
+    },
+    {
+        "id": 14,
+        "enseignant": {
+            "nom": "Larsen",
+            "prenom": "Valdez",
+            "grade": "Maitre-Assistant",
+            "universite": "OLUCORE",
+            "email": "valdezlarsen@olucore.com"
+        }
+    },
+    {
+        "id": 15,
+        "enseignant": {
+            "nom": "Strickland",
+            "prenom": "Bridgett",
+            "grade": "Maitre de Conference",
+            "universite": "BOILCAT",
+            "email": "bridgettstrickland@boilcat.com"
+        }
+    },
+    {
+        "id": 16,
+        "enseignant": {
+            "nom": "Hendricks",
+            "prenom": "Myers",
+            "grade": "Assistant",
+            "universite": "ORBOID",
+            "email": "myershendricks@orboid.com"
+        }
+    },
+    {
+        "id": 17,
+        "enseignant": {
+            "nom": "Blake",
+            "prenom": "Penelope",
+            "grade": "Assistant",
+            "universite": "JUMPSTACK",
+            "email": "penelopeblake@jumpstack.com"
+        }
+    }
+]

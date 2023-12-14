@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+         Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="0.9.1" last-position="0,0" last-zoom="1"
+	 default-owner="postgres">
+<database name="nouvelle_base" is-template="false" allow-conns="true">
+</database>
+
+<schema name="public" fill-color="#e1e1e1" sql-disabled="true">
+</schema>
+
+<schema name="pedagogie" rect-visible="true" fill-color="#e1e1e1">
+</schema>
+
+<table name="formations">
+	<schema name="pedagogie"/>
+	<position x="620" y="80"/>
+	<column name="id" not-null="true">
+		<type name="serial" length="0"/>
+	</column>
+	<column name="formation">
+		<type name="jsonb" length="0"/>
+		<comment><![CDATA[domaine, mention, specialite, grade, duree]]></comment>
+	</column>
+	<constraint name="formation_pk" type="pk-constr" table="pedagogie.formations">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="domaine_not_null" type="ck-constr" table="pedagogie.formations">
+			<expression><![CDATA[formation->>'domaine' is not null]]></expression>
+	</constraint>
+	<constraint name="mention_not_null" type="ck-constr" table="pedagogie.formations">
+			<expression><![CDATA[formation->>'mention' is not null]]></expression>
+	</constraint>
+	<constraint name="specialite_not_null" type="ck-constr" table="pedagogie.formations">
+			<expression><![CDATA[formation->>'specialite' is not null]]></expression>
+	</constraint>
+	<constraint name="grade_not_null" type="ck-constr" table="pedagogie.formations">
+			<expression><![CDATA[formation->>'grade' is not null]]></expression>
+	</constraint>
+	<constraint name="duree_not_null" type="ck-constr" table="pedagogie.formations">
+			<expression><![CDATA[formation->>'duree' is not null]]></expression>
+	</constraint>
+</table>
+
+<table name="ues">
+	<schema name="pedagogie"/>
+	<position x="100" y="40"/>
+	<column name="id" not-null="true">
+		<type name="serial" length="0"/>
+	</column>
+	<column name="ue">
+		<type name="jsonb" length="0"/>
+		<comment><![CDATA[code, masse_horaire, nbre_credit, num_semestre, intitule]]></comment>
+	</column>
+	<constraint name="ue_pk" type="pk-constr" table="pedagogie.ues">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="code_not_null" type="ck-constr" table="pedagogie.ues">
+			<expression><![CDATA[ue->>'code' is not null]]></expression>
+	</constraint>
+	<constraint name="nbre_credit_not_null" type="ck-constr" table="pedagogie.ues">
+			<expression><![CDATA[ue->>'credits' is not null]]></expression>
+	</constraint>
+	<constraint name="num_semestre_not_null" type="ck-constr" table="pedagogie.ues">
+			<expression><![CDATA[ue->>'semestre' is not null]]></expression>
+	</constraint>
+	<constraint name="intitule_not_null" type="ck-constr" table="pedagogie.ues">
+			<expression><![CDATA[ue->>'intitule' is not null]]></expression>
+	</constraint>
+
+	<customidxs object-type="column">
+		<object name="id_formations" index="2"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="formations_fk" index="5"/>
+	</customidxs>
+</table>
+
+<table name="ecus">
+	<schema name="pedagogie"/>
+	<position x="500" y="360"/>
+	<column name="id" not-null="true">
+		<type name="serial" length="0"/>
+	</column>
+	<column name="ecu">
+		<type name="jsonb" length="100"/>
+		<comment><![CDATA[intitule,heures]]></comment>
+	</column>
+	<constraint name="ecu_pk" type="pk-constr" table="pedagogie.ecus">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="intitule_not_null" type="ck-constr" table="pedagogie.ecus">
+			<expression><![CDATA[ecu->>'intitule' is not null]]></expression>
+	</constraint>
+	<constraint name="nheures_not_null" type="ck-constr" table="pedagogie.ecus">
+			<expression><![CDATA[ecu->>'nheures' is not null]]></expression>
+	</constraint>
+
+	<customidxs object-type="column">
+		<object name="id_ues" index="2"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="ues_fk" index="1"/>
+	</customidxs>
+</table>
+
+<table name="enseignants">
+	<schema name="pedagogie"/>
+	<position x="60" y="400"/>
+	<column name="id" not-null="true">
+		<type name="serial" length="0"/>
+	</column>
+	<column name="enseignant" not-null="true">
+		<type name="jsonb" length="255"/>
+		<comment><![CDATA[nom, prenom, grade, universite, email]]></comment>
+	</column>
+	<constraint name="enseignants_pk" type="pk-constr" table="pedagogie.enseignants">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="grade_not_null" type="ck-constr" table="pedagogie.enseignants">
+			<expression><![CDATA[enseignant->>'grade' is not null]]></expression>
+	</constraint>
+	<constraint name="nom_not_null" type="ck-constr" table="pedagogie.enseignants">
+			<expression><![CDATA[enseignant->>'nom' is not null]]></expression>
+	</constraint>
+	<constraint name="prenom_not_null" type="ck-constr" table="pedagogie.enseignants">
+			<expression><![CDATA[enseignant->>'prenom' is not null]]></expression>
+	</constraint>
+</table>
+
+<relationship name="constituer" type="rel1n"
+	 src-col-pattern="{sc}_{st}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#f3b390"
+	 src-table="pedagogie.ues"
+	 dst-table="pedagogie.ecus"
+	 src-required="true" dst-required="false">
+	<label ref-type="dst-label">
+		<position x="-6.10467" y="-17.275"/>
+	</label>
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
+
+<schema name="scolarite" rect-visible="true" fill-color="#e1e1e1" sql-disabled="true">
+</schema>
+
+<table name="etudiants">
+	<schema name="pedagogie"/>
+	<position x="920" y="340"/>
+	<column name="id" not-null="true">
+		<type name="serial" length="0"/>
+	</column>
+	<column name="etudiant" not-null="true">
+		<type name="jsonb" length="255"/>
+		<comment><![CDATA[nom, prenom]]></comment>
+	</column>
+	<constraint name="etudiants_pk" type="pk-constr" table="pedagogie.etudiants">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="nom_not_null" type="ck-constr" table="pedagogie.etudiants">
+			<expression><![CDATA[etudiant->>'nom' is not null]]></expression>
+	</constraint>
+	<constraint name="prenom_not_null" type="ck-constr" table="pedagogie.etudiants">
+			<expression><![CDATA[etudiant->>'prenom' is not null]]></expression>
+	</constraint>
+</table>
+
+<relationship name="notes" type="relnn"
+	 src-col-pattern="{sc}_{st}" dst-col-pattern="{sc}_{dt}"
+	 pk-pattern="{gt}_pk" uq-pattern="{gt}_uq"
+	 src-fk-pattern="{st}_fk" dst-fk-pattern="{dt}_fk"
+	 pk-col-pattern="id"
+	 custom-color="#94e473"
+	 src-table="pedagogie.etudiants"
+	 dst-table="pedagogie.ecus"
+	 src-required="false" dst-required="false"
+	 table-name="notes">
+	<column name="note" not-null="true" default-value="'[]'">
+		<type name="jsonb" length="0"/>
+	</column>
+	<column name="annee" not-null="true">
+		<type name="char" length="4"/>
+	</column>
+	<special-pk-cols indexes="1"/>
+</relationship>
+
+<relationship name="programmes" type="rel1n"
+	 src-col-pattern="{sc}_{st}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#5804d1"
+	 src-table="pedagogie.formations"
+	 dst-table="pedagogie.ues"
+	 src-required="true" dst-required="false"/>
+
+<relationship name="attribution_ecus" type="relnn"
+	 src-col-pattern="{sc}_{st}" dst-col-pattern="{sc}_{dt}"
+	 pk-pattern="{gt}_pk" uq-pattern="{gt}_uq"
+	 src-fk-pattern="{st}_fk" dst-fk-pattern="{dt}_fk"
+	 pk-col-pattern="id"
+	 custom-color="#f53238"
+	 src-table="pedagogie.ecus"
+	 dst-table="pedagogie.enseignants"
+	 src-required="false" dst-required="false"
+	 table-name="attribution_ecus">
+	<label ref-type="name-label">
+		<position x="45.6883" y="9.56434"/>
+	</label>
+	<column name="annee" not-null="true">
+		<type name="char" length="4" interval-type="YEAR"/>
+	</column>
+	<column name="nheures" default-value="0">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="details" not-null="true">
+		<type name="jsonb" length="0"/>
+		<comment><![CDATA[{"details": [{"jour": "Lundi", "horaire": "9h-12h"}, {"jour": "Mardi", "horaire": "9h-12h"}]}]]></comment>
+	</column>
+	<special-pk-cols indexes="0"/>
+</relationship>
+
+</dbmodel>

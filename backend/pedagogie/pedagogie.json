@@ -1,0 +1,634 @@
+{
+	"base": "pedagogie",
+	"ressources": [
+		{
+			"path": "/pedagogie/formations",
+			"methods": [
+				{
+					"name": "POST",
+					"id": "pedagogie_post_formation",
+					"request": {
+						"params": [
+							{
+								"name": "formation",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "GET",
+					"id": "pedagogie_get_formations"
+				}
+			]
+		},
+		{
+			"path": "/pedagogie/formations/{formationId}",
+			"methods": [
+				{
+					"name": "GET",
+					"id": "pedagogie_get_formation",
+					"request": {
+						"params": [
+							{
+								"name": "formationId",
+								"style": "template",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "PUT",
+					"id": "pedagogie_update_formation",
+					"request": {
+						"params": [
+							{
+								"name": "formationId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "newf",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"path": "/pedagogie/formations/{formationId}/ues",
+			"methods": [
+				{
+					"name": "POST",
+					"id": "pedagogie_post_ue",
+					"request": {
+						"params": [
+							{
+								"name": "formationId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "ue",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "GET",
+					"id": "pedagogie_get_ues",
+					"request": {
+						"params": [
+							{
+								"name": "formationId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "semestre",
+								"style": "plain",
+								"required": false
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"path": "/pedagogie/formations/{formationId}/ues/{ueId}",
+			"methods": [
+				{
+					"name": "GET",
+					"id": "pedagogie_get_ue",
+					"request": {
+						"params": [
+							{
+								"name": "formationId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "ueId",
+								"style": "template",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "PUT",
+					"id": "pedagogie_update_ue",
+					"request": {
+						"params": [
+							{
+								"name": "formationId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "ueId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "newue",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "DELETE",
+					"id": "pedagogie_delete_ue",
+					"request": {
+						"params": [
+							{
+								"name": "formationId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "ueId",
+								"style": "template",
+								"required": true
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"path": "/pedagogie/formations/{formationId}/ues/{ueId}/ecus",
+			"methods": [
+				{
+					"name": "POST",
+					"id": "pedagogie_post_ecu",
+					"request": {
+						"params": [
+							{
+								"name": "formationId",
+								"style": "template",
+								"required": false
+							},
+							{
+								"name": "ueId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "ecu",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "GET",
+					"id": "pedagogie_get_ecus",
+					"request": {
+						"params": [
+							{
+								"name": "formationId",
+								"style": "template",
+								"required": false
+							},
+							{
+								"name": "ueId",
+								"style": "template",
+								"required": true
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"path": "/pedagogie/formations/{formationId}/ues/{ueId}/ecus/{ecuId}",
+			"methods": [
+				{
+					"name": "PUT",
+					"id": "pedagogie_get_ecu",
+					"request": {
+						"params": [
+							{
+								"name": "formationId",
+								"style": "template",
+								"required": false
+							},
+							{
+								"name": "ueId",
+								"style": "template",
+								"required": false
+							},
+							{
+								"name": "ecuId",
+								"style": "template",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "PUT",
+					"id": "pedagogie_update_ecu",
+					"request": {
+						"params": [
+							{
+								"name": "formationId",
+								"style": "template",
+								"required": false
+							},
+							{
+								"name": "ueId",
+								"style": "template",
+								"required": false
+							},
+							{
+								"name": "ecuId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "newecu",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "DELETE",
+					"id": "pedagogie_delete_ecu",
+					"request": {
+						"params": [
+							{
+								"name": "formationId",
+								"style": "template",
+								"required": false
+							},
+							{
+								"name": "ueId",
+								"style": "template",
+								"required": false
+							},
+							{
+								"name": "ecuId",
+								"style": "template",
+								"required": true
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"path": "/pedagogie/teachers",
+			"methods": [
+				{
+					"name": "POST",
+					"id": "pedagogie_post_teacher",
+					"request": {
+						"params": [
+							{
+								"name": "teacher",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "GET",
+					"id": "pedagogie_get_teachers"
+				}
+			]
+		},
+		{
+			"path": "/pedagogie/teachers/{teacherId}",
+			"methods": [
+				{
+					"name": "GET",
+					"id": "pedagogie_get_teacher",
+					"request": {
+						"params": [
+							{
+								"name": "teacherId",
+								"style": "template",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "PUT",
+					"id": "pedagogie_update_teacher",
+					"request": {
+						"params": [
+							{
+								"name": "teacherId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "newteacher",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"path": "/pedagogie/teachers/{teacherId}/ecus",
+			"methods": [
+				{
+					"name": "POST",
+					"id": "assign_ecu",
+					"request": {
+						"params": [
+							{
+								"name": "teacherId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "ecuId",
+								"style": "plain",
+								"required": true
+							},
+							{
+								"name": "year",
+								"style": "plain",
+								"required": true
+							},
+							{
+								"name": "details",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "GET",
+					"id": "pedagogie_get_teacher_ecus",
+					"request": {
+						"params": [
+							{
+								"name": "teacherId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "year",
+								"style": "plain",
+								"required": false
+							}
+						]
+					}
+				},
+				{
+					"name": "PUT",
+					"id": "pedagogie_update_assignment_details",
+					"request": {
+						"params": [
+							{
+								"name": "teacherId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "ecuId",
+								"style": "plain",
+								"required": true
+							},
+							{
+								"name": "year",
+								"style": "plain",
+								"required": true
+							},
+							{
+								"name": "newdetails",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "DELETE",
+					"id": "pedagogie_delete_ecu_assignment",
+					"request": {
+						"params": [
+							{
+								"name": "teacherId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "ecuId",
+								"style": "plain",
+								"required": true
+							},
+							{
+								"name": "year",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"path": "/pedagogie/formations/{formationId}/plan",
+			"methods": [
+				{
+					"name": "GET",
+					"id": "pedagogie_get_formation_plan",
+					"request": {
+						"params": [
+							{
+								"name": "formationId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "year",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"path": "/pedagogie/teachers/{teacherId}/ecus/{ecuId}",
+			"methods": [
+				{
+					"name": "POST",
+					"id": "pedagogie_post_seance_cours",
+					"request": {
+						"params": [
+							{
+								"name": "teacherId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "ecuId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "year",
+								"style": "plain",
+								"required": true
+							},
+							{
+								"name": "nheure",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "GET",
+					"id": "pedagogie_get_seances_cours",
+					"request": {
+						"params": [
+							{
+								"name": "teacherId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "ecuId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "year",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "UPDATE",
+					"id": "pedagogie_update_seances_cours",
+					"request": {
+						"params": [
+							{
+								"name": "teacherId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "ecuId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "year",
+								"style": "plain",
+								"required": true
+							},
+							{
+								"name": "nheures",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"path": "/pedagogie/notes/{ecuId}",
+			"methods": [
+				{
+					"name": "POST",
+					"id": "pedagogie_post_notes",
+					"request": {
+						"params": [
+							{
+								"name": "ecuId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "year",
+								"style": "plain",
+								"required": true
+							},
+							{
+								"name": "note",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "GET",
+					"id": "pedagogie_get_notes",
+					"request": {
+						"params": [
+							{
+								"name": "ecuId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "year",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				},
+				{
+					"name": "PUT",
+					"id": "pedagogie_update_note",
+					"request": {
+						"params": [
+							{
+								"name": "ecuId",
+								"style": "template",
+								"required": true
+							},
+							{
+								"name": "studentId",
+								"style": "plain",
+								"required": true
+							},
+							{
+								"name": "year",
+								"style": "plain",
+								"required": true
+							},
+							{
+								"name": "newnote",
+								"style": "plain",
+								"required": true
+							}
+						]
+					}
+				}
+			]
+		}
+	]
+}

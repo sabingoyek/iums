@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id_ecu": 1,
+            "id_enseignant": 1,
+            "nheures": 20
+        },
+        {
+            "id_ecu": 2,
+            "id_enseignant": 3,
+            "nheures": 0
+        },
+        {
+            "id_ecu": 5,
+            "id_enseignant": 4,
+            "nheures": 2
+        },
+        {
+            "id_ecu": 13,
+            "id_enseignant": 4,
+            "nheures": 12
+        },
+        {
+            "id_ecu": 7,
+            "id_enseignant": 4,
+            "nheures": 8
+        },
+        {
+            "id_ecu": 20,
+            "id_enseignant": 4,
+            "nheures": 0
+        }
+    ]
+}

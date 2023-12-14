@@ -1,0 +1,42 @@
+main {
+    width: 960px;
+}
+#filter-input-handler {
+    background-image: url(./searchicon.png);
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#table-to-filter {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+
+#table-to-filter th, #table-to-filter td {
+    text-align: left;
+    padding: 12px;
+}
+
+td a{
+    display: block;
+}
+tr:hover{
+    cursor: pointer;
+}
+tr th{
+    cursor: default;
+}
+#table-to-filter tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#table-to-filter tr.header, #table-to-filter tr:hover {
+    background-color: #f1f1f1;
+}

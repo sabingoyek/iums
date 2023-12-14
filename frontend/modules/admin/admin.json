@@ -1,0 +1,33 @@
+{
+  "name": "admin",
+  "paths": [
+    {
+      "path": "users",
+      "default": "true",
+      "menu": {
+        "name": "Users",
+        "icon": "zmdi zmdi-apps"
+      },
+      "component": "users"
+    },
+
+    {
+      "path": "groups",
+      "menu":{
+        "name": "Groups",
+        "icon": "zmdi zmdi-view-web"
+      },
+      "component": "groups"
+    }
+  ],
+  "data": {
+    "templateData": {
+      "realRoute": null,
+      "currentComp": null
+    },
+    "resources": [],
+    "operations": [],
+    "views": [ ],
+    "uniq": {"id": 1}
+  }
+}

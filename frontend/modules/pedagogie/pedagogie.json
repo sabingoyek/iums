@@ -1,0 +1,22 @@
+{
+    "name": "pedagogie",
+    "paths": [
+        {
+            "path": "formations",
+            "default": "true",
+            "menu": {
+                "name": "formations",
+                "icon": "zmdi zmdi-view-web"
+            },
+            "component": "formations"
+        },
+        {
+            "path": "enseignants",
+            "menu": {
+                "name": "enseignants",
+                "icon": "zmdi zmdi-view-web"
+            },
+            "component": "enseignants"
+        }
+    ]
+}

@@ -1,0 +1,718 @@
+[
+    {
+        "id_ecu": 0,
+        "id_enseignant": 9,
+        "annee": 2020,
+        "details": []
+    },
+    {
+        "id_ecu": 1,
+        "id_enseignant": 0,
+        "annee": 2019,
+        "details": [
+            {
+                "jour": "Jeudi",
+                "horaire": "9h-17h"
+            },
+            {
+                "jour": "Mercredi",
+                "horaire": "11h-17h"
+            },
+            {
+                "jour": "Lundi",
+                "horaire": "9h-14h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "12h-17h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 2,
+        "id_enseignant": 8,
+        "annee": 2018,
+        "details": [
+            {
+                "jour": "Mardi",
+                "horaire": "9h-17h"
+            },
+            {
+                "jour": "Lundi",
+                "horaire": "11h-17h"
+            },
+            {
+                "jour": "Mardi",
+                "horaire": "10h-16h"
+            },
+            {
+                "jour": "Lundi",
+                "horaire": "12h-15h"
+            },
+            {
+                "jour": "Lundi",
+                "horaire": "10h-17h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 3,
+        "id_enseignant": 8,
+        "annee": 2020,
+        "details": []
+    },
+    {
+        "id_ecu": 4,
+        "id_enseignant": 8,
+        "annee": 2018,
+        "details": []
+    },
+    {
+        "id_ecu": 5,
+        "id_enseignant": 12,
+        "annee": 2019,
+        "details": [
+            {
+                "jour": "Vendredi",
+                "horaire": "9h-16h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "11h-15h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 6,
+        "id_enseignant": 13,
+        "annee": 2018,
+        "details": []
+    },
+    {
+        "id_ecu": 7,
+        "id_enseignant": 15,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Mardi",
+                "horaire": "12h-18h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 8,
+        "id_enseignant": 8,
+        "annee": 2018,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "10h-16h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 9,
+        "id_enseignant": 12,
+        "annee": 2020,
+        "details": []
+    },
+    {
+        "id_ecu": 10,
+        "id_enseignant": 13,
+        "annee": 2019,
+        "details": [
+            {
+                "jour": "Vendredi",
+                "horaire": "10h-15h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "9h-17h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 11,
+        "id_enseignant": 0,
+        "annee": 2020,
+        "details": []
+    },
+    {
+        "id_ecu": 12,
+        "id_enseignant": 3,
+        "annee": 2019,
+        "details": [
+            {
+                "jour": "Lundi",
+                "horaire": "9h-18h"
+            },
+            {
+                "jour": "Mardi",
+                "horaire": "12h-16h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "9h-16h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "10h-14h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 13,
+        "id_enseignant": 15,
+        "annee": 2018,
+        "details": []
+    },
+    {
+        "id_ecu": 14,
+        "id_enseignant": 4,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "11h-18h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 15,
+        "id_enseignant": 14,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Jeudi",
+                "horaire": "12h-17h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 16,
+        "id_enseignant": 13,
+        "annee": 2019,
+        "details": [
+            {
+                "jour": "Vendredi",
+                "horaire": "9h-18h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "9h-18h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 17,
+        "id_enseignant": 9,
+        "annee": 2019,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "12h-16h"
+            },
+            {
+                "jour": "Mercredi",
+                "horaire": "12h-17h"
+            },
+            {
+                "jour": "Mercredi",
+                "horaire": "9h-17h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 18,
+        "id_enseignant": 12,
+        "annee": 2019,
+        "details": []
+    },
+    {
+        "id_ecu": 19,
+        "id_enseignant": 6,
+        "annee": 2018,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "9h-16h"
+            },
+            {
+                "jour": "Lundi",
+                "horaire": "9h-15h"
+            },
+            {
+                "jour": "Vendredi",
+                "horaire": "9h-18h"
+            },
+            {
+                "jour": "Mercredi",
+                "horaire": "10h-18h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "11h-17h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 20,
+        "id_enseignant": 2,
+        "annee": 2020,
+        "details": []
+    },
+    {
+        "id_ecu": 21,
+        "id_enseignant": 7,
+        "annee": 2018,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "10h-15h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 22,
+        "id_enseignant": 15,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Jeudi",
+                "horaire": "11h-16h"
+            },
+            {
+                "jour": "Mardi",
+                "horaire": "9h-14h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 23,
+        "id_enseignant": 0,
+        "annee": 2018,
+        "details": [
+            {
+                "jour": "Vendredi",
+                "horaire": "11h-14h"
+            },
+            {
+                "jour": "Lundi",
+                "horaire": "10h-14h"
+            },
+            {
+                "jour": "Mardi",
+                "horaire": "9h-17h"
+            },
+            {
+                "jour": "Lundi",
+                "horaire": "9h-15h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 24,
+        "id_enseignant": 4,
+        "annee": 2019,
+        "details": []
+    },
+    {
+        "id_ecu": 25,
+        "id_enseignant": 5,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Vendredi",
+                "horaire": "10h-14h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 26,
+        "id_enseignant": 5,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "11h-15h"
+            },
+            {
+                "jour": "Vendredi",
+                "horaire": "12h-16h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 27,
+        "id_enseignant": 12,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Lundi",
+                "horaire": "10h-18h"
+            },
+            {
+                "jour": "Mardi",
+                "horaire": "10h-14h"
+            },
+            {
+                "jour": "Mercredi",
+                "horaire": "11h-14h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "12h-15h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 28,
+        "id_enseignant": 8,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "11h-14h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "12h-16h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "11h-15h"
+            },
+            {
+                "jour": "Vendredi",
+                "horaire": "10h-14h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 29,
+        "id_enseignant": 8,
+        "annee": 2019,
+        "details": [
+            {
+                "jour": "Lundi",
+                "horaire": "10h-14h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "11h-15h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 30,
+        "id_enseignant": 15,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "10h-18h"
+            },
+            {
+                "jour": "Mardi",
+                "horaire": "11h-16h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 31,
+        "id_enseignant": 5,
+        "annee": 2019,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "12h-15h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "11h-15h"
+            },
+            {
+                "jour": "Mercredi",
+                "horaire": "11h-16h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "12h-16h"
+            },
+            {
+                "jour": "Vendredi",
+                "horaire": "10h-15h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 32,
+        "id_enseignant": 13,
+        "annee": 2020,
+        "details": []
+    },
+    {
+        "id_ecu": 33,
+        "id_enseignant": 16,
+        "annee": 2018,
+        "details": []
+    },
+    {
+        "id_ecu": 34,
+        "id_enseignant": 3,
+        "annee": 2020,
+        "details": []
+    },
+    {
+        "id_ecu": 35,
+        "id_enseignant": 11,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "9h-18h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 36,
+        "id_enseignant": 13,
+        "annee": 2019,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "10h-15h"
+            },
+            {
+                "jour": "Mercredi",
+                "horaire": "10h-18h"
+            },
+            {
+                "jour": "Lundi",
+                "horaire": "12h-17h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "10h-18h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 37,
+        "id_enseignant": 12,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "9h-15h"
+            },
+            {
+                "jour": "Lundi",
+                "horaire": "10h-16h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 38,
+        "id_enseignant": 15,
+        "annee": 2019,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "9h-17h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "10h-16h"
+            },
+            {
+                "jour": "Vendredi",
+                "horaire": "10h-18h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 39,
+        "id_enseignant": 6,
+        "annee": 2018,
+        "details": [
+            {
+                "jour": "Vendredi",
+                "horaire": "11h-17h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "11h-14h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 40,
+        "id_enseignant": 12,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "11h-18h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "9h-15h"
+            },
+            {
+                "jour": "Mardi",
+                "horaire": "12h-16h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 41,
+        "id_enseignant": 1,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Jeudi",
+                "horaire": "11h-16h"
+            },
+            {
+                "jour": "Mercredi",
+                "horaire": "10h-17h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 42,
+        "id_enseignant": 13,
+        "annee": 2019,
+        "details": []
+    },
+    {
+        "id_ecu": 43,
+        "id_enseignant": 13,
+        "annee": 2018,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "10h-14h"
+            },
+            {
+                "jour": "Lundi",
+                "horaire": "12h-17h"
+            },
+            {
+                "jour": "Lundi",
+                "horaire": "9h-15h"
+            },
+            {
+                "jour": "Lundi",
+                "horaire": "10h-15h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 44,
+        "id_enseignant": 6,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Vendredi",
+                "horaire": "12h-17h"
+            },
+            {
+                "jour": "Vendredi",
+                "horaire": "9h-14h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 45,
+        "id_enseignant": 13,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Jeudi",
+                "horaire": "10h-16h"
+            },
+            {
+                "jour": "Lundi",
+                "horaire": "11h-15h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 46,
+        "id_enseignant": 9,
+        "annee": 2018,
+        "details": [
+            {
+                "jour": "Mardi",
+                "horaire": "12h-18h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 47,
+        "id_enseignant": 17,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "10h-14h"
+            },
+            {
+                "jour": "Mercredi",
+                "horaire": "9h-16h"
+            },
+            {
+                "jour": "Vendredi",
+                "horaire": "9h-15h"
+            },
+            {
+                "jour": "Mercredi",
+                "horaire": "12h-17h"
+            },
+            {
+                "jour": "Lundi",
+                "horaire": "10h-14h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 48,
+        "id_enseignant": 17,
+        "annee": 2020,
+        "details": [
+            {
+                "jour": "Mercredi",
+                "horaire": "12h-14h"
+            },
+            {
+                "jour": "Mardi",
+                "horaire": "11h-14h"
+            },
+            {
+                "jour": "Mercredi",
+                "horaire": "11h-18h"
+            },
+            {
+                "jour": "Mercredi",
+                "horaire": "11h-16h"
+            }
+        ]
+    },
+    {
+        "id_ecu": 49,
+        "id_enseignant": 9,
+        "annee": 2018,
+        "details": [
+            {
+                "jour": "Jeudi",
+                "horaire": "9h-12h"
+            },
+            {
+                "jour": "Jeudi",
+                "horaire": "14h-18h"
+            }
+        ]
+    }
+]

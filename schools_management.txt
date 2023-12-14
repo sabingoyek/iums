@@ -1,0 +1,159 @@
+modules
+-------
+pedagogie
+ -formations
+  - suivi
+ -notes
+
+scolarite
+ -selection
+ -inscriptions
+ -actes
+
+-----------------------------------------------------------
+			ressources
+formation
+ -/pedagogie/formations
+   POST - ajouter une nouvelle formation
+   GET - lister toutes les formations
+   PUT - unused   
+   DELETE - unused
+ 
+-/pedagogie/formations/{id}
+   POST - unused
+   GET - obtenir les details d'une formation
+   PUT - mettre a jour une formation
+   DELETE - unused
+
+ -/pedagogie/formations/{id}/ues
+   POST - ajouter une nouvelle UE
+   GET - lister toutes les UEs d'un semestre d'une formation
+   PUT - unused
+   DELETE - unused
+
+ -/pedagogie/formations/{idf}/ues/{id}
+   POST - unused
+   GET - obtenir les details d'une UE
+   PUT - mettre a jour une UE
+   DELETE - supprimer une UE
+   
+ -/pedagogie/formations/{idf}/ues/{idue}/ecus
+   POST - ajouter un nouveau ECU
+   GET - obtenir la liste des ECU
+   PUT - unused
+   DELETE - unused
+
+ -/pedagogie/formations/{idf}/ues/{idue}/ecus/{id}
+   POST - unused
+   GET - obtenir les details d'un ECU
+   PUT - mettre a jour un ECU
+   DELETE - supprimer un ECU
+
+suivi
+ -/pedagogie/enseignants
+   POST - ajouter un nouveau enseignant
+   GET - obtenir la liste des enseignants
+   PUT - unused
+   DELETE - unused
+
+   
+ -/pedagogie/enseignants/{id}
+   POST - unused
+   GET - obtenir les details d'un enseignant
+   PUT - mettre a jour les details d'un enseignant
+   DELETE - unused
+
+ 	attribution ECU aux enseignants
+ -/pedagogie/enseignants/{id}/ecus
+   POST - attibuer un ecu a un enseignant
+   GET - obtenir la iste des ecus attribuees a un enseignant
+   PUT - mettre a jour les details de l'attribution
+   DELETE - supprimer l'attribution d'un ecu a un enseignant
+ 
+ -/pedagogie/formations/{id}/plan
+   POST - unused
+   GET - obtenir la planification par formation
+   PUT - unused
+   DELETE - unused
+
+	execution cours par enseignant
+ -/pedagogie/enseignants/{id}/ecus/{id}
+   POST - ajouter une seance de cours
+   GET - obtenir la liste des seances de cours
+   PUT - mettre a jour une seance de cours
+   DELETE - unused
+
+ 	notes
+ -/pedagogie/notes/{idecu}/
+   POST - ajouter les notes pour un ecu
+   GET - obtenir les notes pour un ecu
+   PUT - mettre a jour la note d'un etudiant pour un ecu
+   DELETE - unused
+ 
+selection
+ -/scolarite/candidats
+   POST - ajouter un nouveau candidat
+   GET - unused
+   PUT - unused
+   DELETE - unused
+
+ -/scolarite/candidats/{id}
+   POST - unused
+   GET - obtenir les details d'un candidat
+   PUT - mettre a jour les details d'un candidat
+   DELETE - unused
+
+ -/scolarite/candidatures
+   POST - ajouter une nouvelle candidature
+   GET - obtenir la liste des candidatures
+   PUT - unused
+   DELETE - unused
+
+ -/scolarite/candidatures/{id}
+   POST - unused
+   GET - obtenir les details d'une candidature
+   PUT - mettre a jour les details d'une candidature
+   DELETE - unused
+
+ 	-candidats selectionnes
+ -/scolarite/candidatures/{id}/{decision}
+   POST - ajouter une decision pour un candidat
+   GET - unused
+   PUT - unsued
+   DELETE - unused
+
+inscription
+-/scolarite/etudiants/{formation}
+   POST - ajouter un nouveau etudiant a une formation
+   GET - obtenir la liste des etudiants d'une formation
+   PUT - unused
+   DELETE - unused
+
+ -inscription etudiant????
+   /scolarite/etudiants/{id}/{formation}/
+   POST - enregistrer un etudiant inscrit
+   GET - unused
+   PUT - mettre a jour les informations d'inscription d'un etudiant
+   DELETE - unused
+
+ -/scolarite/etudiants/{id}
+   POST - unused
+   GET - obtenir les details d'un etudiant
+   PUT - mettre a jour les details d'un etudiant
+   DELETE - unused
+
+-------------------------------------------------------------
+actes
+ -/actes
+   POST - ajouter un nouveau acte
+   GET - obtenir la liste des actes
+   PUT - unused
+   DELETE - unused
+
+ -/actes/{id}
+   POST - unused
+   GET - obtenir les details d'un acte
+   PUT - mettre a jour les details d'un acte
+   DELETE - unused
+
+----------------------------------------------

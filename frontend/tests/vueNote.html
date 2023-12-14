@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note - UE</title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="table.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">Mathematiques Fondamentales et Applications</h1>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href="vueProgramme.html">Programme</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="vuePlanification.html">Planification</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="vueSuivi.html">Suivi</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="vueNotes.html">Notes</a>
+        </li>
+    </ul>
+    
+    <br><br>
+    <strong>UE</strong>: Modelisation avec UML <br><br>
+    <label for="year">Annee academique</label>
+    <select name="year" id="year">
+        <option value="2016">2019-2020</option>
+        <option value="2016">2018-2019</option>
+        <option value="2016">2017-2018</option>
+        <option value="2016">2016-2017</option>
+        <option value="2016">2015-2016</option>
+    </select>
+
+    <br><br>
+    <input type="text" id="filter-input-handler" onkeyup="myFunction(2)" placeholder="Nom...">
+    <table id="table-to-filter">
+        <tr class="header">
+            <th>&numero;</th>
+            <th>Nom et Prenom</th>
+            <th>Moyenne</th>
+            <th>Observation</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Kimba</td>
+            <td>12</td>
+            <td>Valide</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bill</td>
+            <td>15</td>
+            <td>Valide</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Marc</td>
+            <td>19</td>
+            <td>Valide</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Conite</td>
+            <td>12</td>
+            <td>Valide</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Ange</td>
+            <td>20</td>
+            <td>Valide</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Yannick</td>
+            <td>15</td>
+            <td>Valide</td>
+        </tr>
+    </table>
+
+    <script src="table.js"></script>
+    <script src="../jquery-3.5.1.js"></script>
+    <script src="../popper.js"></script>
+    <script src="../bootstrap.min.js"></script>
+</body>
+
+</html>

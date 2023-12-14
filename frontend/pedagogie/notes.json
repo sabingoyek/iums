@@ -1,0 +1,56 @@
+{
+    "data": [
+        [
+            {
+                "id_etudiants": 1,
+                "note": 17,
+                "session": 2
+            },
+            {
+                "id_etudiants": 2,
+                "note": 17,
+                "session": 1
+            },
+            {
+                "id_etudiants": 3,
+                "note": 15,
+                "session": 1
+            },
+            {
+                "id_etudiants": 4,
+                "note": 17,
+                "session": 1
+            },
+            {
+                "id_etudiants": 5,
+                "note": 20,
+                "session": 1
+            },
+            {
+                "id_etudiants": 6,
+                "note": 20,
+                "session": 1
+            },
+            {
+                "id_etudiants": 7,
+                "note": 20,
+                "session": 1
+            },
+            {
+                "id_etudiants": 8,
+                "note": 20,
+                "session": 1
+            },
+            {
+                "id_etudiants": 9,
+                "note": 20,
+                "session": 1
+            },
+            {
+                "id_etudiants": 10,
+                "note": 20,
+                "session": 1
+            }
+        ]
+    ]
+}

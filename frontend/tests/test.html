@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapse</title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="table.css">
+
+</head>
+<body>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Programme</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Planification</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Suivi</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Notes</a>
+        </li>
+    </ul>
+    <br><br><br>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Semestre 1
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    <table id="table-to-filter">
+                        <tr class="header">
+                            <th>Domaine</th>
+                            <th>Mention</th>
+                            <th>Specialite</th>
+                            <th>Grade</th>
+                            <th>Duree</th>
+                        </tr>
+                        <tr>
+                            <td><a href="vueFormation.html">Sciences et Technologies</a></td>
+                            <td><a href="vueFormation.html">MFA</a></td>
+                            <td><a href="vueFormation.html">Mathematiques Fondamendatales</a></td>
+                            <td><a href="vueFormation.html">Master</a></td>
+                            <td><a href="vueFormation.html">4 semestres</a></td>
+                        </tr>
+                        <tr data-target="vueFormation.html">
+                            <td>Sciences et Technologies</td>
+                            <td>Informatique</td>
+                            <td>Master TIC option SI</td>
+                            <td>Master</td>
+                            <td>4 semestres</td>
+                        </tr>
+                        <tr>
+                            <td>Sciences et Technologies</td>
+                            <td>Informatique</td>
+                            <td>Master TIC option Reseaux et Telecom</td>
+                            <td>Master</td>
+                            <td>4 semestres</td>
+                        </tr>
+                        <tr>
+                            <td>Sciences et Technologies</td>
+                            <td>Informatique</td>
+                            <td>Licence speciale PREPA(TIC)</td>
+                            <td>Licence</td>
+                            <td>2 semestres</td>
+                        </tr>
+                        <tr>
+                            <td>Sciences et Technologies</td>
+                            <td>Mathematique</td>
+                            <td>Licence speciale PREPA(Maths)</td>
+                            <td>Licence</td>
+                            <td>2 semestres</td>
+                        </tr>
+                        <tr>
+                            <td>Sciences et Technologies</td>
+                            <td>Physique</td>
+                            <td>Licence speciale PREPA(Physique)</td>
+                            <td>Licence</td>
+                            <td>2 semestres</td>
+                        </tr>
+                        <tr>
+                            <td>Sciences et Technologies</td>
+                            <td>Classes Preparatoires</td>
+                            <td>PREPA(MPSI)</td>
+                            <td>Licence</td>
+                            <td>2 semestres</td>
+                        </tr>
+                        <tr>
+                            <td>Sciences et Technologies</td>
+                            <td>Classes Preparatoires</td>
+                            <td>PREPA(PCSI)</td>
+                            <td>Licence</td>
+                            <td>2 semestres</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Semestre 2
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Semestre 3
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Semestre 4
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                    labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../jquery-3.5.1.js"></script>
+    <script src="../popper.js"></script>
+    <script src="../bootstrap.min.js"></script>
+</body>
+</html>

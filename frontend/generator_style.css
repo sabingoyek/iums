@@ -1,0 +1,383 @@
+/*common styles*/
+.table thead th {
+    border-bottom: none;
+}
+.table td {
+    padding: .75rem;
+    vertical-align: middle;
+}
+.dialog{
+    z-index: 1000;
+}
+#dialogContainer{
+    z-index: 1000;
+}
+
+.methods-content.form-control {
+    height: 2.0rem;
+}
+.card{
+    margin-bottom: 5px;
+}
+.script-content .form-control{
+    background-color: #eeecf2;
+    border-color: #eeecf2;
+}
+/*.card-body */.form-control{
+    /*background-color: #eeecf2;*/
+    border-color: #eeecf2;
+}
+.badge-primary{
+    background-color: #bbb1cb;
+}
+.badge{
+    -webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    border-radius: 2.5rem;
+}
+button {
+    float: right;
+    /*background-color: mediumpurple !important;*/
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+/*button:hover{*/
+    /*background-color:rgb(86, 61, 124) !important ;*/
+/*}*/
+/*button:active{*/
+    /*background-color: rgb(86, 61, 124) !important;*/
+/*}*/
+
+table{
+    font-size: small;
+}
+body, html {
+    height: 100%;
+}
+label, h4 {
+    font-size: small !important;
+}
+
+/*Workspace styles*/
+.wspace{
+    min-height: calc(100% - 113px);
+    /*padding: 15px 0;*/
+}
+.wspace .no_view {
+    text-align: center;
+}
+.wspace .no_view img{
+    width: 100px;
+}
+.wspace .no_view span{
+    color: lightsteelblue;
+}
+.content{
+    margin: 20% auto;
+}
+.content {
+    display: inline-grid;
+}
+
+.vertical{
+    border:         none;
+    border-left:    1px solid gainsboro;
+    height:         45vh;
+    width:          1px;
+}
+
+.properties{
+    background-color: #fff;
+    height: 100%;
+}
+
+.generated-view{
+    /*border: 1px solid #fff;*/
+    height: 100%;
+}
+
+/*nav tabs style*/
+.tab-pane{
+    /*height: 100%;*/
+    padding-top: 3%;
+    background-color: white;
+}
+
+
+
+.nav-link{
+    padding: 10px;
+}
+
+.nav-tabs{
+    border-bottom: none !important;
+}
+
+.nav-tabs .nav-link {
+     border: none;
+     border-top-left-radius: 0;
+     border-top-right-radius: 0;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: rgba(0,0,0,.03);
+}
+.tab-content>.active {
+    display: block;
+    background-color: rgba(0,0,0,.03);
+}
+
+/*accordi*ons*/
+.mb-0{
+    float: left;
+    font-size: small;
+}
+.card-header {
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    border :none !important;
+}
+.cb-custum{
+    padding: .5rem;
+    /*height:75% !important;*/
+    /*overflow-y: scroll;: ;*/
+}
+.accordion .card {
+    border: none;
+}
+.card{
+    /*background-color: rgba(51,51,51,0.3); !important;*/
+}
+.left-side{
+    background-color: #fff;
+}
+.mb-0 a{
+    width: 100%;
+    font-size: small;
+}
+
+.template-wspace{
+    /*background-color: #ffffff;*/
+    /*border: 1px dotted rebeccapurple;*/
+    /*padding: 25px;*/
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.template-wspace span{
+    font-weight: 100;
+}
+/*vew editor styles*/
+.comp-palette{
+   background-color: #ffffff;
+    height: 100%;
+}
+
+/* comonents properties*/
+#properties{
+    padding-top: 3%;
+}
+
+/*.comp-palette .nav-tabs .nav-link.active {*/
+    /*background-color: gainsboro;*/
+/*}*/
+.option img {
+    width: 43%;
+}
+.form-control{
+    border-radius: 0;
+}
+
+/*operation style*/
+.title{
+    text-align: center;
+    color: rgb(7, 71, 166) !important;
+}
+.script-content{
+    padding: 2%;
+}
+.operation-form{
+    margin: 1% auto;
+}
+
+/*components palette style*/
+.comp-list{
+    list-style: none;
+    padding: 0;
+}
+.component{
+    font-size: 13px;
+    padding: 5px;
+    /*border: 1px solid lightgray;*/
+    background-color: rgba(0,0,0,.03);
+    width: 43%;
+    height: 50px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 5px 5px;
+}
+.component:hover{
+    cursor: pointer;
+}
+.component img{
+    display: block;
+    width: 54%;
+    height: 32px;
+    margin: 0 auto;
+    padding-bottom: 12px;
+}
+.comp-palette h4{
+    text-transform: uppercase;
+}
+
+.component a{
+    text-align: center;
+}
+.component .cs{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+/*data styles*/
+.form-check{
+    margin-bottom: 10px;
+}
+
+/*methods style*/
+.methods-param{
+    width: 100%;
+    padding: 20px 34px 0 40px;
+}
+.methods-list{
+    padding-top: 20px;
+}
+
+/*resources styles*/
+.params-table td{
+    padding: 0;
+}
+.params-table .form-control{
+    border-top-color: transparent;
+}
+.params-table .form-group{
+    margin-bottom: 0;
+}
+.params-table .btn{
+    padding: 0.2rem .75rem;
+}
+.form-control-plaintext{
+    padding-left: 0.85rem;
+}
+.form-check-input{
+    padding-left: 0.85rem;
+}
+.editable .form-control{
+    padding: 0;
+    padding-left: 0.85rem;
+    border:none; box-shadow:none;
+    background-color: rgba(0,0,0,.03);
+}
+.editable .form-control:active{
+    /*border:none; box-shadow:none;*/
+}
+.current{
+    margin-bottom: 14px;
+    /* font-weight: bold; */
+    font-size: 20px !important;
+}
+
+.list{
+    list-style: none;
+    padding: 10px 0;
+    /*font-size: 14px;*/
+}
+.list li:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.list li{
+    height: 2.0rem;
+    margin: 0;
+    padding: 0;
+    /*padding-left: 10px;*/
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    line-height: 1.5em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.list li> a{
+    font-size: 15px;
+    font-weight: normal;
+    transition: all 0.29s ease-in-out 0s;
+    margin-bottom: 0.2em;
+    color: #444;
+}
+
+.role{
+    margin-bottom: 25px;
+}
+.trigger{
+    margin-bottom: 25px;
+}
+.params{
+    margin-bottom: 25px;
+}
+.responses{
+    margin-bottom: 25px;
+}
+
+
+/*------ treeview-----*/
+
+.action-item{
+    font-size: 12px;
+    width: 12px !important;
+    margin: 0 5px 0 8px;
+    cursor: pointer;
+}
+#rootapp{
+    padding: 0;
+    list-style: none;
+}
+#rootapp li>span{
+    list-style: none;
+    cursor: pointer;
+}
+
+#rootapp ul{
+    list-style: none;
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*codemirror*/
+.CodeMirror-scroll{
+    margin-right: 0;
+}
+
+/*integration*/
+.integTabs .tab-pane{
+    padding: 12px;
+}
+.lifecycle{
+    font-weight: 100;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 5%;
+    list-style: none;
+}
+.lifecycle li:hover{
+    cursor: pointer;
+}

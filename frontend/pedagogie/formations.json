@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "duree": 4,
+    "grade": "Master",
+    "domaine": "Science et Technologie",
+    "mention": "Mathematiques fondamentales et Applications",
+    "specialite": "Mathematiques fondamentales"
+  },
+  {
+    "id": 2,
+    "duree": 4,
+    "grade": "Master",
+    "domaine": "Science et Technologie",
+    "mention": "Informatique",
+    "specialite": "Master TIC option SI"
+  },
+  {
+    "id": 3,
+    "duree": 4,
+    "grade": "Master",
+    "domaine": "Science et Technologie",
+    "mention": "Informatique",
+    "specialite": "Master TIC option Reseaux"
+  }
+]

@@ -1,0 +1,258 @@
+[
+    {
+        "id": 1,
+        "id_ue": 1,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Géométrie des courbes et des surfaces"
+        }
+    },
+    {
+        "id": 2,
+        "id_ue": 1,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Géométrie riemannienne des surfaces"
+        }
+    },
+    {
+        "id": 3,
+        "id_ue": 2,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Algèbre générale"
+        }
+    },
+    {
+        "id": 4,
+        "id_ue": 2,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Topologie algébrique"
+        }
+    },
+    {
+        "id": 5,
+        "id_ue": 3,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Topologie générale"
+        }
+    },
+    {
+        "id": 6,
+        "id_ue": 3,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Espaces fonctionnels"
+        }
+    },
+    {
+        "id": 7,
+        "id_ue": 4,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Initiation à Scilab"
+        }
+    },
+    {
+        "id": 8,
+        "id_ue": 4,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Discrétisations des ODE"
+        }
+    },
+    {
+        "id": 9,
+        "id_ue": 5,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Analyse convexe"
+        }
+    },
+    {
+        "id": 10,
+        "id_ue": 5,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Optimisation numérique"
+        }
+    },
+    {
+        "id": 11,
+        "id_ue": 6,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Théorie des Probabilités"
+        }
+    },
+    {
+        "id": 12,
+        "id_ue": 6,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Statistiques"
+        }
+    },
+    {
+        "id": 13,
+        "id_ue": 7,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Eléments théoriques du traitement de texte scientifique"
+        }
+    },
+    {
+        "id": 14,
+        "id_ue": 7,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Traitement pratique"
+        }
+    },
+    {
+        "id": 15,
+        "id_ue": 8,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Expression Ecrite en anglais"
+        }
+    },
+    {
+        "id": 16,
+        "id_ue": 8,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Expression orale en anglais"
+        }
+    },
+    {
+        "id": 17,
+        "id_ue": 9,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Géométrie différentielle, groupes et algèbres de Lie"
+        }
+    },
+    {
+        "id": 18,
+        "id_ue": 9,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Géométrie riemannienne"
+        }
+    },
+    {
+        "id": 19,
+        "id_ue": 10,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Opérateurs bornés et non bornés"
+        }
+    },
+    {
+        "id": 20,
+        "id_ue": 11,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Théorie spectrale"
+        }
+    },
+    {
+        "id": 21,
+        "id_ue": 12,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Espaces fonctionnels et Espaces de Sobolev"
+        }
+    },
+    {
+        "id": 22,
+        "id_ue": 12,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Equations aux dérivées partielles"
+        }
+    },
+    {
+        "id": 23,
+        "id_ue": 13,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Théorie des distributions"
+        }
+    },
+    {
+        "id": 24,
+        "id_ue": 13,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Analyse de Fourier et Analyse hilbertienne"
+        }
+    },
+    {
+        "id": 25,
+        "id_ue": 14,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Introduction aux systèmes dynamiques"
+        }
+    },
+    {
+        "id": 26,
+        "id_ue": 14,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Introduction à la théorie du Contrôle"
+        }
+    },
+    {
+        "id": 27,
+        "id_ue": 15,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Introduction à l’analyse numérique"
+        }
+    },
+    {
+        "id": 28,
+        "id_ue": 16,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Initiation à l’épistémologie"
+        }
+    },
+    {
+        "id": 29,
+        "id_ue": 16,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Eléments d’histoire des mathématiques"
+        }
+    },
+    {
+        "id": 30,
+        "id_ue": 17,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Programmation sur Excel ou Access (macro)"
+        }
+    },
+    {
+        "id": 31,
+        "id_ue": 17,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Programmation web et sécurité web"
+        }
+    },
+    {
+        "id": 32,
+        "id_ue": 18,
+        "ecu": {
+            "nheures": 45,
+            "intitule": "Initiation à la rédaction scientifique"
+        }
+    }
+]

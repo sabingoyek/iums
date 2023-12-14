@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*#container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .col {
+            margin: 20px;
+        }
+
+        #container2{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        #container2 div{
+            margin: 20px;
+        }*/
+        .formation-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto;
+            justify-content: center;
+        }
+        .formation-container h2 {
+            grid-column: 1 / 5;
+            grid-row: 1 / 2;
+        }
+
+        .formation-details{
+            grid-column: 1 / 5;
+            grid-row: 2 / 3;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .formation-details div{
+            margin-right: 1em;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+    <!--<div id="container">
+        <div class="col">
+            <div>Domaine: Science et Technique</div>
+            <div>Grade: Master</div>
+        </div>
+        <div class="col">
+            <div>Specialite: Mathematiques Fondamentale</div>
+            <div>Duree: 4 semestres</div>
+        </div>
+    </div>-->
+    <div class="formation-container">
+        <h2>Mathematiques Fondamentales et applications</h2>
+        <div class="formation-details">
+            <div>Domaine: Sciences et Technologies</div>
+            <div>Grade: Master</div>
+            <div>Specialite: Mathematiques Fondamentales</div>
+            <div>Duree: 4 semestres</div>
+        </div>
+    </div>
+</body>
+
+</html>

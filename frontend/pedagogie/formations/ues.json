@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "id_formation": 1,
+    "ue": {
+      "code": "Geo",
+      "credits": 6,
+      "intitule": "Geometrie",
+      "semestre": "1"
+    }
+  },
+  {
+    "id": 2,
+    "id_formation": 1,
+    "ue": {
+      "code": "ALG-TPG",
+      "credits": 6,
+      "intitule": "Algèbre générale et Topologie algébrique",
+      "semestre": "1"
+    }
+  },
+  {
+    "id": 3,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 4,
+      "intitule": "Complément de topologie générale et espaces fonctionnelles",
+      "semestre": "1"
+    }
+  },
+  {
+    "id": 4,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 4,
+      "intitule": "Discrétisations des ODE",
+      "semestre": "1"
+    }
+  },
+  {
+    "id": 5,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 2,
+      "intitule": "Optimisation et analyse convexe",
+      "semestre": "1"
+    }
+  },
+  {
+    "id": 6,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 4,
+      "intitule": "Statistiques et Théorie des Probabilités",
+      "semestre": "1"
+    }
+  },
+  {
+    "id": 7,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 2,
+      "intitule": "Initiation au traitement de texte scientifique",
+      "semestre": "1"
+    }
+  },
+  {
+    "id": 8,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 2,
+      "intitule": "Anglais scientifique",
+      "semestre": "1"
+    }
+  },
+  {
+    "id": 10,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 4,
+      "intitule": "Géométrie différentielle et introduction à la géométrie riemannienne",
+      "semestre": "2"
+    }
+  },
+  {
+    "id": 11,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 4,
+      "intitule": "Théorie des Operateurs",
+      "semestre": "2"
+    }
+  },
+  {
+    "id": 12,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 4,
+      "intitule": "Equations aux dérivées partielles et Espaces de Sobolev",
+      "semestre": "2"
+    }
+  },
+  {
+    "id": 13,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 4,
+      "intitule": "Distribution et Analyse de Fourier",
+      "semestre": "2"
+    }
+  },
+  {
+    "id": 14,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 4,
+      "intitule": "Théorie du Contrôle",
+      "semestre": "2"
+    }
+  },
+  {
+    "id": 15,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 3,
+      "intitule": "Introduction à l’analyse numérique",
+      "semestre": "2"
+    }
+  },
+  {
+    "id": 16,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 3,
+      "intitule": "Epistémologie et histoire des maths",
+      "semestre": "2"
+    }
+  },
+  {
+    "id": 1,
+    "id_formation": 17,
+    "ue": {
+      "code": "c",
+      "credits": 3,
+      "intitule": "Programmation",
+      "semestre": "2"
+    }
+  },
+  {
+    "id": 18,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 1,
+      "intitule": "Initiation à la rédaction scientifique",
+      "semestre": "2"
+    }
+  },
+  {
+    "id": 19,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 4,
+      "intitule": "Géométrie symplectique et de contact",
+      "semestre": "3"
+    }
+  },
+  {
+    "id": 20,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 4,
+      "intitule": "Analyse géométrique",
+      "semestre": "3"
+    }
+  },
+  {
+    "id": 21,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 3,
+      "intitule": "Systèmes dynamiques",
+      "semestre": "3"
+    }
+  },
+  {
+    "id": 22,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 3,
+      "intitule": "Théorie algébrique des nombres et Théorie de feuilletage",
+      "semestre": "3"
+    }
+  },
+  {
+    "id": 23,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 3,
+      "intitule": "Méthodologie de Recherche",
+      "semestre": "3"
+    }
+  },
+  {
+    "id": 24,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 3,
+      "intitule": "Discrétisation et résolution numérique des EDP",
+      "semestre": "3"
+    }
+  },
+  {
+    "id": 25,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 100,
+      "intitule": "Calculs des variations et EDP",
+      "semestre": "3"
+    }
+  },
+  {
+    "id": 26,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 3,
+      "intitule": "Géométrie algébrique",
+      "semestre": "3"
+    }
+  },
+  {
+    "id": 27,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 4,
+      "intitule": "Géométrie des variétés à courbure non positive",
+      "semestre": "4"
+    }
+  },
+  {
+    "id": 28,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 4,
+      "intitule": "Géométrie des sous espaces de type lumière",
+      "semestre": "4"
+    }
+  },
+  {
+    "id": 29,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 12,
+      "intitule": "Stage de recherche",
+      "semestre": "4"
+    }
+  },
+  {
+    "id": 30,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 5,
+      "intitule": "Rédaction du mémoire",
+      "semestre": "4"
+    }
+  },
+  {
+    "id": 31,
+    "id_formation": 1,
+    "ue": {
+      "code": "c",
+      "credits": 4,
+      "intitule": "Soutenance",
+      "semestre": "4"
+    }
+  }
+]
